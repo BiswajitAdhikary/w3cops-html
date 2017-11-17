@@ -1,0 +1,290 @@
+/*
+Theme Name: HTML Quick Start
+Theme URI: https://rosetheme.com/
+Author: Biswajit Adhikary.
+Author URI: https://rosetheme.com/
+Description: This is HTML quick start using Bootstrap & Font Awesome for front-end web developer.
+Version: 1.0.1
+*/
+
+/*
+==========
+Import all fonts  -----------------------------------
+==========
+*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+/*
+==========
+Import all fonts  -----------------------------------
+==========
+*/
+
+/*
+==========
+Start all basic css ---------------------------------
+==========
+*/
+body, html {
+    height: 100%;
+}
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+p {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+}
+a {
+	transition: .3s;
+}
+a:hover {
+	text-decoration: none;
+}
+/*
+==========
+End all basic css -----------------------------------
+==========
+*/
+
+/*
+==========
+Start front-header-area css -------------------------
+==========
+*/
+.front-header-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.front-header-area .navbar-light .navbar-brand {
+	font-family: 'Cormorant Garamond', serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 50px;
+	color: rgba(255, 255, 255, .8);
+	transition: .3s;
+}
+.front-header-area .navbar-light .navbar-brand:hover {
+	color: rgba(255, 255, 255, 1);
+}
+.front-header-area .navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(255, 255, 255, .7);
+}
+.front-header-area .navbar-light .navbar-toggler:hover {
+	cursor: pointer;
+}
+.front-header-area .navbar-light .navbar-toggler:focus {
+	outline: none;
+}
+.front-header-area .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, .7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.show-navbar-bg {
+	background-color: rgba(0, 0, 0, .4);
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.front-header-area ul.navbar-nav li a {
+	display: block;
+    padding: 10px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, .6);
+    transition: .3s;
+}
+.front-header-area ul.navbar-nav li a:hover {
+	color: rgba(255, 255, 255, 1);	
+}
+.front-header-area ul.navbar-nav li.active a {
+	color: rgba(255, 255, 255, 1);
+}
+.front-header-area ul.navbar-nav {
+	padding: 40px 0;
+}
+/*
+==========
+End front-header-area css ---------------------------
+==========
+*/
+
+/*
+==========
+Start front-only-area css -------------------------
+==========
+*/
+.front-only-area {
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.front-only-content {
+	padding-top: 50px;
+	text-align: center;
+}
+.front-only-content h2 {
+	font-size: 45px;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	color: rgba(255, 255, 255, .8);
+}
+.front-only-content h3 {
+	margin: 30px 0;
+	padding: 0;
+	font-size: 45px;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, .8);
+}
+.site-button {
+	border: 1px solid rgba(255, 255, 255, .7);
+	padding: 10px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, .8);
+	transition: .3s;
+	border-radius: 4px;
+	display: inline-block;
+	margin-top: 50px;
+}
+.site-button:hover {
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #007bff;;
+	background-color: #007bff;
+}
+/*
+==========
+End front-only-area css ---------------------------
+==========
+*/
+
+/*
+==========
+Start front-footer-area css -------------------------
+==========
+*/
+.front-footer-area {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: rgba(255, 255, 255, .8);
+}
+/*
+==========
+End front-footer-area css ---------------------------
+==========
+*/
+
+/*
+==========
+Start header-area css -------------------------
+==========
+*/
+.header-area {
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.09);
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.09);
+}
+.header-area .navbar-light .navbar-brand {
+	font-family: 'Cormorant Garamond', serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 50px;
+	color: rgba(0, 0, 0, .9);
+	transition: .3s;
+}
+.header-area .navbar-light .navbar-brand:hover {
+	color: rgba(0, 0, 0, .7);
+}
+.header-area .navbar-light .navbar-toggler:focus {
+	outline: none;
+}
+.header-area .show-navbar-bg {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 103px;
+    background-color: rgba(0, 0, 0, .8);
+}
+.header-area ul.navbar-nav li a {
+	display: block;
+    padding: 10px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, .6);
+    transition: .3s;
+}
+.header-area ul.navbar-nav li a:hover {
+	color: rgba(255, 255, 255, 1);	
+}
+.header-area ul.navbar-nav li.active a {
+	color: rgba(255, 255, 255, 1);
+}
+.header-area ul.navbar-nav {
+	padding: 40px 0;
+}
+/*
+==========
+End header-area css -------------------------
+==========
+*/
+
+/*
+==========
+Start content-area css -------------------------
+==========
+*/
+.contact-area {
+	min-height: 580px;
+	padding-bottom: 50px;
+}
+.page-heading {
+	text-align: center;
+	padding: 50px 0;
+}
+.contact-form input {
+	margin-bottom: 15px;
+}
+.contact-form select {
+	margin-bottom: 15px;
+}
+.contact-form textarea {
+	margin-bottom: 15px;
+}
+/*
+==========
+End content-area css ---------------------------
+==========
+*/
+
+/*
+==========
+Start footer-area css -------------------------
+==========
+*/
+.footer-area {
+    text-align: center;
+    color: #fff;
+    background-color: #333333;
+    padding: 50px 0;
+}
+.footer-area p {
+	margin: 0;
+	padding: 0;
+}
+/*
+==========
+End footer-area css ---------------------------
+==========
+*/
