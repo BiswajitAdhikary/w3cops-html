@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap v3.3.7 Quick Start</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <section>
+        <div class="marketplace_search_bar">
+
+          <div id="filter-group">
+
+            <!-- Start of 'Reset All' -->
+            <div class="reset">
+              <button class="button is-checked" data-filter="*">Reset All</button>
+            </div>
+            <!-- End of 'Reset All' -->
+
+            <!-- Start of 'Select Options - Business Type' -->
+            <select class="filters-select option-set" data-filter-group="business-type">
+              <option value="*" data-filter-value="" selected="true">Show All - Color</option>
+              <option data-filter=".red">Red</option>
+              <option data-filter=".green">Green</option>
+              <option data-filter=".blue">Blue</option>
+              <option data-filter=".yellow">Yellow</option>
+              <option data-filter=".black">Black</option>
+            </select>
+            <!-- End of 'Select Options - Business Type' -->
+
+            <!-- Start of 'Select Options - Location' -->
+            <select class="filters-select option-set" data-filter-group="location">
+              <option value="*" data-filter-value="" selected="true">Show All - Size</option>
+              <option data-filter=".big">Big</option>
+              <option data-filter=".small">Small</option>
+              <option data-filter=".tall">Tall</option>
+              <option data-filter=".long">long</option>
+              <option data-filter=".short">short</option>
+            </select>
+            <!-- End of 'Select Options - Location' -->
+
+          </div>
+
+          <div class="none-available">
+            Not Found
+          </div>
+
+        </div>
+
+        <!-- Start of 'Grid' -->
+        <div class="grid">
+
+          <!-- Start of '#0 - Business Name' -->
+          <div class="element-item red big">
+
+            <div class="div redc">
+                
+            </div>
+
+          </div>
+          <!-- End of '#0 - Business Name' -->
+
+
+          <!-- Start of '#1 - NCKCN' -->
+          <div class="element-item yellow">
+
+            <div class="div yellowc">
+                
+            </div>
+
+          </div>
+          <!-- End of '#1 - NCKCN' -->
+
+          <!-- Start of '#0 - Business Name' -->
+          <div class="element-item red">
+
+            <div class="div redc">
+                
+            </div>
+
+          </div>
+          <!-- End of '#0 - Business Name' -->
+
+          <!-- Start of '#2 - CTC' -->
+          <div class="element-item black">
+
+            <div class="div blackc">
+                
+            </div>
+
+          </div>
+          <!-- End of '#2 - CTC' -->
+
+          <!-- Start of '#3 - NCRPC' -->
+          <div class="element-item blue">
+
+            <div class="div bluec">
+                
+            </div>
+
+          </div>
+          <!-- End of '#3 - NCRPC' -->
+
+
+
+        </div>
+        <!-- End of 'Grid' -->
+
+    </section>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
